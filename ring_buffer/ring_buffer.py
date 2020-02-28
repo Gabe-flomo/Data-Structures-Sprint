@@ -96,7 +96,7 @@ if self.current:
 buf = RingBuffer(3)
 buf.append(1)
 buf.append(2)
-buf.append(3)
+buf.append(5)
 print(buf.get())
 buf.append(4)
 print(buf.get())
